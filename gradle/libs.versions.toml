@@ -28,13 +28,13 @@ spring-boot-autoconfigure = { module = "org.springframework.boot:spring-boot-aut
 spring-boot-processor = { module = "org.springframework.boot:spring-boot-configuration-processor" }
 
 # JWT
-jakarta-servlet-api = { module = "jakarta.servlet:jakarta.servlet-api", version.ref = "jakarta" }
+jakarta-servlet-api = { module = "jakarta.servlet:jakarta.servlet-api"}
 jwt-api = { module = "io.jsonwebtoken:jjwt-api", version.ref = "jwt" }
 jwt-impl = { module = "io.jsonwebtoken:jjwt-impl", version.ref = "jwt" }
 jwt-jackson = { module = "io.jsonwebtoken:jjwt-jackson", version.ref = "jwt" }
 
 # Jackson
-jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
+jackson-module-kotlin = { module = "tools.jackson.module:jackson-module-kotlin" }
 
 # Kotlin
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }

@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
 	runApplication<ChirpApplication>(*args)
 }
 
-@Component
+/*@Component
 class Demo(
 	private val userRepository: UserRepository
 ) {
@@ -23,11 +23,10 @@ class Demo(
 	fun init() {
 		userRepository.save(
 			UserEntity(
-				email = "test@test.com",
-				username = "test",
-				hashedPassword = "123456",
+				email = "test2@test.com",
+				username = "test2",
+				hashedPassword = "12345678910",
 			)
 		)
 	}
-
-}
+}*/
